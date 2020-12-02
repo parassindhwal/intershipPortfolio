@@ -432,6 +432,10 @@ footer .circle {
 	background-color: #000;
 }
 
+footer .social li:hover {
+	transform: scale(1.1);
+}
+
 
 @media screen and (max-width: 1200px){
 	.main-container{
