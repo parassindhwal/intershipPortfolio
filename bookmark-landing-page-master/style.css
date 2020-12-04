@@ -498,6 +498,11 @@ a.btn-dark {
         display: none;
     }
 
+    .intro-section img {
+        height: 300px;
+        width: 500px;
+    }
+
     .rev-col {
         flex-direction: column-reverse;
     }
@@ -593,10 +598,11 @@ a.btn-dark {
     .menu {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 706px) {
-    body {
+    .mobile-view {
         overflow-x: hidden;
     }
 }
